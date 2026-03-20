@@ -40,7 +40,7 @@
 
     <section id="about" class="container-fluid">
         <div class="col-8 col-lg-4 pofile-picture">
-            <img src="image/me.jpg" alt="" class="rounded-circle">
+            <img src="image/moi.jpg" alt="" class="rounded-circle">
         </div>
         <div class="heading">
             <h1>Hello, c'est moi <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">Grâce</h1>
@@ -68,15 +68,15 @@
                         </div>
                     </div>
                     <div class="progress">
-                        <div class="progress-bar" role="progressbar" style="width: 90%;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
-                            <h5>JAVASCRIPT 90%</h5>
+                        <div class="progress-bar" role="progressbar" style="width: 50%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+                            <h5>JAVASCRIPT 50%</h5>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-6">
                     <div class="progress">
-                        <div class="progress-bar" role="progressbar" style="width: 85%;" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
-                            <h5>JQUERY 85%</h5>
+                        <div class="progress-bar" role="progressbar" style="width: 45%;" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100">
+                            <h5>JQUERY 45%</h5>
                         </div>
                     </div>
                     <div class="progress">
@@ -85,8 +85,8 @@
                         </div>
                     </div>
                     <div class="progress">
-                        <div class="progress-bar" role="progressbar" style="width: 75%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
-                            <h5>REACT 75%</h5>
+                        <div class="progress-bar" role="progressbar" style="width: 45%;" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100">
+                            <h5>REACT 45%</h5>
                         </div>
                     </div>
                 </div>
@@ -168,7 +168,7 @@
                         <h3>Université de Yaoundé 1</h3>
                         <h4>Diplôme licence en informatique</h4>
                         <div class="divider"></div>
-                        <p>Intelligence Artificiel</p>
+                        <p>Génie logiciel</p>
                         <p>Système d'information</p>
                     </div>
                 </div>
@@ -200,17 +200,17 @@
                     </a>
                 </div>
                 <div class="col-md-4">
-                    <a href="https:google.com" target="_blank">
-                        <img src="./image/google_translate.png" class="img-thumbnail" alt="google_translate">
+                    <a href="https://github.com/gracemakeu26-lgtm" target="_blank">
+                        <img src="./image/github.png" class="img-thumbnail" alt="google_translate">
                     </a>
                 </div>
                 <div class="col-md-4">
-                    <a href="https:twitter.com" target="_blank">
-                        <img src="./image/twitter_video.png" class="img-thumbnail" alt="twitter_video">
+                    <a href="https://linkedin.com/in/tchomgo-grace-makeu" rel="noopener noreferrer" target="_blank">
+                        <img src="./image/linkedin.png" class="img-thumbnail" alt="twitter_video">
                     </a>
                 </div>
             </div>
-            <div class="row">
+            <!-- <div class="row">
                 <div class="col-md-4">
                     <a href="https:youtube.com" target="_blank">
                         <img src="./image/youtube.png" class="img-thumbnail" alt="youtube">
@@ -222,7 +222,7 @@
                 <div class="col-md-4"><a href="https:facebook.com" target="_blank">
                         <img src="./image/facebook_video.png" class="img-thumbnail" alt="facebook_video">
                     </a></div>
-            </div>
+            </div> -->
         </div>
     </section>
 
@@ -308,10 +308,33 @@
         </div>
     </section>
 
-    <footer class="text-center">
-        <a href="#about"><span class="bi bi-chevron-up"></span></a>
-        <h5>&COPY; APPRENDRE-A-CODER.COM</h5>
+    <footer class="bg-dark text-center text-white pt-5 pb-4">
+        <div class="container">
+            <div>
+                <a href="#about"><span><i class="bi bi-chevron-up"></i></span></a>
+            </div>
+            <div class="row pb-3">
+                <div class="col-md-3">
+                    <h5>Contact</h5>
+                    <p>
+                        <i class="bi bi-telephone"></i> +237 651 40 63 56<br>
+                        <i class="bi bi-envelope"></i> gracemakeu26@gmail.com
+                    </p>
+                </div>
+                <div class="col-md-3">
+                    <h5>Suivez-moi</h5>
+                    <p>
+                        <a href="https:facebook.com" target="_blank" class="text-white mx-2"><i class="bi bi-facebook"></i></a>
+                        <a href="https://linkedin.com/in/tchomgo-grace-makeu" rel="noopener noreferrer" target="_blank" class="text-white mx-2"><i class="bi bi-linkedin"></i></a>
+                        <a href="https://github.com/gracemakeu26-lgtm" target="_blank" class="text-white mx-2"><i class="bi bi-github"></i></a>
+                    </p>
+                </div>
+            </div>
+            <hr class="bg-light">
+            <div class="pt-3 text-center">
+                <p>&copy; 2026  - Tous droits réservés</p>
+            </div>
+        </div>
     </footer>
-
 </body>
 </html>
