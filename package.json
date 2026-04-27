@@ -1,0 +1,9 @@
+{
+  "name": "grace-portfolio",
+  "version": "1.0.0",
+  "description": "Portfolio personnel - Grace Makeu",
+  "private": true,
+  "engines": {
+    "node": "none"
+  }
+}
