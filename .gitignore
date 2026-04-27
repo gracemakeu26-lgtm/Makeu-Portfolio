@@ -1,0 +1,13 @@
+*.log
+*.swp
+*.swo
+*~
+.DS_Store
+node_modules/
+vendor/
+.env
+.env.local
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
