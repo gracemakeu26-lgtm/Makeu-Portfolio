@@ -46,7 +46,7 @@
             <h3>Développeur Web Passionnée</h3>
             <p class="lead">Étudiante en informatique à l'Université de Yaoundé 1, je suis une développeuse web en formation passionnée par la création d'expériences utilisateur innovantes et responsives. Spécialisée en HTML, CSS, JavaScript et Bootstrap.</p>
             <div class="mt-4">
-                <a href="/docs/cv.pdf" class="button1"><i class="bi bi-download"></i> Télécharger CV</a>
+                <a href="/docs/cv.pdf" class="button1" target="_blank" rel="noopener noreferrer"><i class="bi bi-eye-fill"></i> Voir CV</a>
             </div>
         </div>
     </section>
@@ -94,7 +94,7 @@
                 <div class="col-lg-6">
                     <div class="mb-3">
                         <div class="d-flex justify-content-between align-items-center mb-2">
-                            <label><i class="bi bi-bezier"></i> React</label>
+                            <label><i class="bi bi-bezier"></i> WordPress</label>
                             <span class="badge bg-primary">50%</span>
                         </div>
                         <div class="progress">
@@ -137,7 +137,7 @@
         <ul class="timeline">
             <li>
                 <div class="timeline-badge"><span class="bi-briefcase-fill"></span></div>
-                <div class="timeline-panel-container">
+                <div class="timeline-panel-container col-md-6">
                     <div class="timeline-panel">
                         <div class="timeline-heading">
                             <h3>PROJET SCOLAIRE</h3>
@@ -221,12 +221,16 @@
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <div class="card h-100 shadow-lg border-0 overflow-hidden transition" style="border-radius: 15px; transition: transform 0.3s ease, background: white; box-shadow 0.3s ease;">
+                    <div class="card h-100 shadow-lg border-0 overflow-hidden transition" style="border-radius: 15px; transition: transform 0.3s ease, box-shadow 0.3s ease;">
                         <a href="mailto:gracemakeu26@gmail.com" class="text-decoration-none text-dark position-relative" style="display: block; height: 100%;">
-                            <img src="./image/mail.png" class="card-img-top" alt="Email" style="object-fit: cover; height: 250px; filter: brightness(0.85); background: white;">
+                            <!-- <div style="height: 250px; background: #000; display: flex; align-items: center; justify-content: center;">
+                                <i class="bi bi-envelope-at" style="font-size: 4rem; color: #fff;"></i>
+                            </div> -->
+                            <img src="./image/mail-removebg-preview.png" class="card-img-top" alt="LinkedIn Profile" style="object-fit: cover; height: 250px; filter: brightness(0.95);">
                             <div class="card-body text-center" style="background: linear-gradient(135deg, #fff5f5 0%, #ffffff 100%); position: relative;">
                                 <h5 class="card-title fw-bold"><i class="bi bi-envelope-at text-danger"></i> Email</h5>
                                 <p class="card-text text-muted small">Envoyez-moi un message</p>
+                                <p class="card-text small text-danger fw-bold">gracemakeu26@gmail.com</p>
                                 <span class="badge bg-danger">Contacter</span>
                             </div>
                         </a>
